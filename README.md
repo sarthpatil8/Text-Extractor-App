@@ -32,14 +32,17 @@ This app aims to simplify the process of extracting text from images and turning
    cd text-extractor-app
 
 2. **Install dependencies**
+  ```bash
         npm install
 
 
 3. **Create API key config**
+  ```bash
         // config.tsx
         export const MISTRAL_API_KEY = 'your-mistral-api-key-here';
 
 
 4. **Start the Expo development server**
+  ```bash
         npx expo start
 
